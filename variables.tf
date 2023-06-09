@@ -66,11 +66,11 @@ variable "MachineType" {
 	}
 }
 
-variable "NetworkTargetTags"
+variable "NetworkTargetTags" {
 	default = [
 		"cyperf-agent"
 	]
-	type = string
+	type = list(string)
 }
 
 variable "RegionName" {
