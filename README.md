@@ -1,1 +1,1 @@
-# terraform-google-module-cyperf-agent
+# module-cyperf-agent/google
