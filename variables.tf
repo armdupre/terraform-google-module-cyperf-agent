@@ -4,7 +4,7 @@ variable "AppEth0IpAddress" {
 }
 
 variable "CustomImageFamilyName" {
-	default = "keysight-cyperf-agent-1-5"
+	default = "keysight-cyperf-agent-2-1"
 	description = "Group of images to which image belongs"
 	type = string
 }
