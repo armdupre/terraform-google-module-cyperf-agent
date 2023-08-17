@@ -70,6 +70,7 @@ variable "NetworkTargetTags" {
 	default = [
 		"cyperf-agent"
 	]
+	description = "Network tags make firewall rules and routes applicable to specific VM instances."
 	type = list(string)
 }
 
@@ -112,7 +113,7 @@ variable "UserProjectTag" {
 }
 
 variable "Version" {
-	default = "1-5"
+	default = "2-1"
 	description = "Versioning of the application using the deployment"
 	type = string
 }
