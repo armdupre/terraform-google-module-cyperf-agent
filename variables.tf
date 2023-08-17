@@ -4,7 +4,7 @@ variable "AppEth0IpAddress" {
 }
 
 variable "CustomImageFamilyName" {
-	default = "keysight-cyperf-agent-2-1"
+	default = "keysight-cyperf-agent-2-5"
 	description = "Group of images to which image belongs"
 	type = string
 }
@@ -113,7 +113,7 @@ variable "UserProjectTag" {
 }
 
 variable "Version" {
-	default = "2-1"
+	default = "2-5"
 	description = "Versioning of the application using the deployment"
 	type = string
 }
